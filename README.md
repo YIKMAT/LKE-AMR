@@ -10,7 +10,7 @@ As a prerequisite, the following requirements should be satisfied. Please instal
 
 
 
-`SASA` can be installed from source, you can download it and run it in command line or IDE (i.e. Pycharm):
+`LKE-AMR` can be installed from source, you can download it and run it in command line or IDE (i.e. Pycharm):
 ```shell script
 pip install -r requirements.txt
 pip install -e .
