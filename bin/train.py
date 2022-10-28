@@ -15,11 +15,11 @@ except ImportError:
 from torch.cuda.amp.grad_scaler import GradScaler
 import transformers
 
-from spring_amr import ROOT
-from spring_amr.dataset import reverse_direction
-from spring_amr.optim import RAdam
-from spring_amr.evaluation import write_predictions, compute_smatch, predict_amrs, predict_sentences, compute_bleu
-from spring_amr.utils import instantiate_model_and_tokenizer, instantiate_loader
+from lke_amr import ROOT
+from lke_amr.dataset import reverse_direction
+from lke_amr.optim import RAdam
+from lke_amr.evaluation import write_predictions, compute_smatch, predict_amrs, predict_sentences, compute_bleu
+from lke_amr.utils import instantiate_model_and_tokenizer, instantiate_loader
 
 from ignite.engine import Engine, Events
 from ignite.metrics import RunningAverage

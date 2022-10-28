@@ -3,10 +3,10 @@ from pathlib import Path
 import penman
 import torch
 
-from spring_amr import ROOT
-from spring_amr.evaluation import predict_amrs, compute_smatch
-from spring_amr.penman import encode
-from spring_amr.utils import instantiate_loader, instantiate_model_and_tokenizer
+from lke_amr import ROOT
+from lke_amr.evaluation import predict_amrs, compute_smatch
+from lke_amr.penman import encode
+from lke_amr.utils import instantiate_loader, instantiate_model_and_tokenizer
 
 if __name__ == '__main__':
 
