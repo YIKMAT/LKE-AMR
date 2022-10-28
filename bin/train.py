@@ -97,8 +97,8 @@ def do_train(checkpoint=None, direction='amr', split_both_decoder=False, fp16=Fa
         srl_vocab_file = config['srl_vocab_file']
     )
 
-    dev_gold_path = ROOT / 'data/temp/dev-gold.txt'
-    dev_pred_path = ROOT / 'data/temp/dev-pred.txt'
+    dev_gold_path = ROOT / 'data/AMR/temp/dev-gold.txt'
+    dev_pred_path = ROOT / 'data/AMR/temp/dev-pred.txt'
     dev_loader = instantiate_loader(
         config['dev'],
         tokenizer,
