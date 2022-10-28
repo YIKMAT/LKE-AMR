@@ -7,7 +7,7 @@ import torch
 from tqdm import tqdm
 import smatch
 
-from spring_amr.dataset import reverse_direction
+from lke_amr.dataset import reverse_direction
 
 def predict_amrs(
         loader, model, tokenizer, beam_size=1, tokens=None, restore_name_ops=False, return_all=False):

@@ -4,9 +4,9 @@ from pathlib import Path
 import torch
 from transformers import AutoConfig
 
-from spring_amr.dataset import AMRDataset, AMRDatasetTokenBatcherAndLoader
-from spring_amr.modeling_bart import AMRBartForConditionalGeneration
-from spring_amr.tokenization_bart import AMRBartTokenizer, PENMANBartTokenizer
+from lke_amr.dataset import AMRDataset, AMRDatasetTokenBatcherAndLoader
+from lke_amr.modeling_bart import AMRBartForConditionalGeneration
+from lke_amr.tokenization_bart import AMRBartTokenizer, PENMANBartTokenizer
 
 
 def instantiate_model_and_tokenizer(

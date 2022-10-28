@@ -5,9 +5,9 @@ import re
 import networkx as nx
 import penman
 
-from spring_amr.penman import encode
+from lke_amr.penman import encode
 
-from spring_amr.linearization import AMRTokens
+from lke_amr.linearization import AMRTokens
 
 BACKOFF = penman.Graph([
     penman.Triple('d2', ':instance', 'dog'),

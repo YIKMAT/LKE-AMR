@@ -3,7 +3,7 @@ import random
 import torch
 from cached_property import cached_property
 from torch.utils.data import Dataset
-from spring_amr.IO import read_raw_amr_data
+from lke_amr.IO import read_raw_amr_data
 import json
 
 def reverse_direction(x, y, pad_token_id=1):

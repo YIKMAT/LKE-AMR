@@ -10,7 +10,7 @@ from torch.nn import functional as F
 from transformers import modeling_bart as bart
 from transformers.modeling_utils import BeamHypotheses, calc_banned_ngram_tokens, calc_banned_bad_words_ids, \
     top_k_top_p_filtering
-from spring_amr.modules import MultiHeadGATLayer, TGATLayer, TAGATLayer, APGATLayer, PAGATLayer, ATGATLayer
+from lke_amr.modules import MultiHeadGATLayer, TGATLayer, TAGATLayer, APGATLayer, PAGATLayer, ATGATLayer
 
 
 # -------------------------------------------parameter setting-------------------------------
