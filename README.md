@@ -1,4 +1,4 @@
-# Exploiting Syntax and Semantics in AMR Parsing with Heterogeneous Graph Attention Network
+# Integrating Syntactic and Semantic Knowledge in AMR Parsing with Heterogeneous Graph Attention Network
 The work is submitted to ICASSP 2023. Under review.
 
 
